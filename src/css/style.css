@@ -1,0 +1,110 @@
+* {
+    box-sizing: border-box;
+}
+
+html {
+    height: 100%;
+}
+
+body {
+    background-color: #f9f6fc;
+    color: #0d0812;
+    min-height: 100%;
+    font-family: Arial, Helvetica, sans-serif;
+    position: relative;
+    margin: 0;
+    padding-bottom: 150px;
+}
+
+main {
+    overflow: hidden;
+}
+
+h1, h2 {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+a {
+  color: #7d4fba;
+}
+
+footer {
+    position: absolute;
+    width: 100%;
+    background-color: #0d0812;
+    color: #f9f6fc;
+    bottom: 0;
+    width: 100%;
+    height: 150px;
+    padding: 25px 0px;
+}
+
+.header-bar {
+    background-color: #7d4fba;
+    padding: 15px;
+}
+
+.header-bar a {
+    background-color: #f9f6fc;
+    color: #0d0812;
+    text-align: center;
+    border-radius: 5px;
+    padding: 10px;
+    text-decoration: none;
+    width: 15%;
+    overflow: hidden;
+}
+
+.header-bar a:hover {
+  background: #ef8b92;
+}
+
+.header-bar a.current-page {
+  background: #bcd162;
+}
+
+.center {
+    width: 80%;
+    margin: 0px auto;
+}
+.hero-section {
+    padding: 48px 0;
+    background: linear-gradient(to bottom, #ef8b92, #f9f6fc);
+    text-align: center;
+}
+
+.footer-column {
+    float: left;
+    width: 25%;
+    margin-right: 1%;
+}
+
+.footer-column p {
+  margin: 4px 0;
+}
+
+.footer-column a {
+  color: #bcd162;
+}
+
+.title {
+  padding: 24px 0;
+}
+
+.angled {
+  background: linear-gradient(135deg, #bcd162, #ef8b92);
+}
+
+.project-card {
+  float: left;
+  width: 23%;
+  min-height: 415px;
+  margin: 0 1% 25px 1%;
+  padding: 15px;
+  background: #ffffff;
+  border: 2px solid #7d4fba;
+}
+
+.content {
+    padding: 24px 0;
+}   
