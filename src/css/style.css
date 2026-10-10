@@ -25,7 +25,7 @@ h1, h2 {
 }
 
 a {
-  color: #7d4fba;
+    color: #7d4fba;
 }
 
 footer {
@@ -56,11 +56,11 @@ footer {
 }
 
 .header-bar a:hover {
-  background: #ef8b92;
+    background: #ef8b92;
 }
 
 .header-bar a.current-page {
-  background: #bcd162;
+    background: #bcd162;
 }
 
 .center {
@@ -80,31 +80,72 @@ footer {
 }
 
 .footer-column p {
-  margin: 4px 0;
+    margin: 4px 0;
 }
 
 .footer-column a {
-  color: #bcd162;
-}
-
-.title {
-  padding: 24px 0;
+    color: #bcd162;
 }
 
 .angled {
-  background: linear-gradient(135deg, #bcd162, #ef8b92);
+    background: linear-gradient(135deg, #bcd162, #ef8b92);
 }
 
 .project-card {
-  float: left;
-  width: 23%;
-  min-height: 415px;
-  margin: 0 1% 25px 1%;
-  padding: 15px;
-  background: #ffffff;
-  border: 2px solid #7d4fba;
+    float: left;
+    width: 23%;
+    min-height: 415px;
+    margin: 0 1% 25px 1%;
+    padding: 15px;
+    background: #ffffff;
+    border: 2px solid #7d4fba;
 }
 
 .content {
     padding: 24px 0;
-}   
+}
+
+.profile-picture {
+    float: left;
+    width: 25%;
+    margin: 0;
+}
+
+.profile-picture img {
+    border: 4px solid #7d4fba;
+    width: 100%;
+}
+
+.bio {
+    float: right;
+    width: 71%;
+}
+
+.contact-form {
+    width: 63%;
+}
+
+.contact-form label {
+    display: block;
+    margin: 10px;
+}
+
+.contact-form input,
+.contact-form textarea {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #0d0812;
+    border-radius: 8px;
+    font-size: 16px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.contact-form button {
+    margin-top: 16px;
+    padding: 10px 30px;
+    background: #7d4fba;
+    color: #f9f6fc;
+    border: 0;
+    border-radius: 8px;
+    font-size: 16px;
+}
