@@ -9,36 +9,28 @@ html {
 body {
     background-color: #f9f6fc;
     color: #0d0812;
-    min-height: 100%;
     font-family: Arial, Helvetica, sans-serif;
-    position: relative;
     margin: 0;
+    position: relative;
+
+    min-height: 100%;
     padding-bottom: 150px;
 }
 
 main {
-    overflow: hidden;
-}
-
-h1, h2 {
-    font-family: Arial, Helvetica, sans-serif;
-}
-
-a {
-    color: #7d4fba;
+    overflow-y: hidden;
 }
 
 footer {
-    position: absolute;
-    width: 100%;
     background-color: #0d0812;
     color: #f9f6fc;
-    bottom: 0;
+    position: absolute;
     width: 100%;
     height: 150px;
+    bottom: 0;
     padding: 25px 0px;
 }
-
+/* Header Links */
 .header-bar {
     background-color: #7d4fba;
     padding: 15px;
@@ -48,11 +40,9 @@ footer {
     background-color: #f9f6fc;
     color: #0d0812;
     text-align: center;
-    border-radius: 5px;
+    border-radius: 10px;
     padding: 10px;
     text-decoration: none;
-    width: 15%;
-    overflow: hidden;
 }
 
 .header-bar a:hover {
@@ -63,46 +53,50 @@ footer {
     background: #bcd162;
 }
 
-.center {
-    width: 80%;
-    margin: 0px auto;
-}
-.hero-section {
-    padding: 48px 0;
-    background: linear-gradient(to bottom, #ef8b92, #f9f6fc);
-    text-align: center;
-}
-
 .footer-column {
     float: left;
     width: 25%;
-    margin-right: 1%;
 }
 
 .footer-column p {
-    margin: 4px 0;
+    margin: 5px;
 }
 
 .footer-column a {
     color: #bcd162;
 }
 
+.center {
+    width: 80%;
+    margin: 0px auto;
+}
+
+.hero-section {
+    padding: 48px 0;
+    background: linear-gradient(to bottom, #ef8b92, #f9f6fc);
+    text-align: center;
+}
+
 .angled {
-    background: linear-gradient(135deg, #bcd162, #ef8b92);
+    background: linear-gradient(90deg, #bcd162, #ef8b92);
 }
 
 .project-card {
     float: left;
     width: 23%;
-    min-height: 415px;
+    min-height: 420px;
     margin: 0 1% 25px 1%;
     padding: 15px;
     background: #ffffff;
     border: 2px solid #7d4fba;
 }
 
+.project-card img {
+    width: 100%;
+}
+
 .content {
-    padding: 24px 0;
+    padding: 25px 0;
 }
 
 .profile-picture {
@@ -112,17 +106,16 @@ footer {
 }
 
 .profile-picture img {
-    border: 4px solid #7d4fba;
     width: 100%;
 }
 
 .bio {
     float: right;
-    width: 71%;
+    width: 75%;
 }
 
 .contact-form {
-    width: 63%;
+    width: 50%;
 }
 
 .contact-form label {
@@ -134,18 +127,17 @@ footer {
 .contact-form textarea {
     width: 100%;
     padding: 10px;
-    border: 1px solid #0d0812;
-    border-radius: 8px;
-    font-size: 16px;
+    border-radius: 10px;
+    font-size: 15px;
     font-family: Arial, Helvetica, sans-serif;
 }
 
 .contact-form button {
-    margin-top: 16px;
-    padding: 10px 30px;
     background: #7d4fba;
     color: #f9f6fc;
+    margin-top: 16px;
+    padding: 10px 30px;
     border: 0;
-    border-radius: 8px;
+    border-radius: 10px;
     font-size: 16px;
 }
